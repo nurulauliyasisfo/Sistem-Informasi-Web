@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Pribadiku</title>
+  <style>
+    body { font-family: sans-serif; max-width: 720px; margin: 0 auto; padding: 16px; line-height: 1.6; }
+    nav a { margin-right: 12px; }
+    table, th, td { border: 1px solid #888; border-collapse: collapse; padding: 6px 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halo, Saya [Nama Kamu]</h1>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Tulis perkenalan singkat tentang dirimu di sini.</p>
+    </section>
+
+    <section id="keahlian">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="pengalaman">
+      <h2>Pengalaman</h2>
+      <table>
+        <tr><th>Tahun</th><th>Kegiatan</th></tr>
+        <tr><td>2025</td><td>Mulai belajar web</td></tr>
+        <tr><td>2026</td><td>Membuat project pertama</td></tr>
+      </table>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <form action="#" method="post">
+        <p><label>Nama:<br><input type="text" name="nama"></label></p>
+        <p><label>Pesan:<br><textarea name="pesan" rows="3"></textarea></label></p>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 [Nama Kamu]</p>
+  </footer>
+</body>
+</html>
